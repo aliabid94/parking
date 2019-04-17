@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>
+      Parking App
+    </title>
+    <link rel="stylesheet" type="text/css" href="style/card.css" />
+    <link rel="stylesheet" type="text/css" href="style/common.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div id="header">
+        <img id="logo" src="images/logo.png" />
+      </div>
+      <div class="main-title">
+        <button>
+          <img class="back-button" src="images/back.png" />
+        </button>
+        <h1 class="page-title blue">ADD CARD</h1>
+      </div>
+      <h4 class="card-heading blue">Name On Card</h4>
+      <div class="card-info">
+        <input class="info-input" type="text" placeholder="As it appears on your card"></input>
+      </div>
+      <h4 class="card-heading blue">Card Number</h4>
+      <div class="card-info">
+        <input class="info-input" type="text" placeholder="0000 0000 0000 0000"></input>
+      </div>
+      <h4 class="card-heading blue">Card Expiry Date (month/ year) </h4>
+      <div id="exp-date">
+          <input id="month" class="month-year" type="text" placeholder="mm">
+          <input id="year" class="month-year" type="text" placeholder="yyyy">
+      </div>
+      <h4 class="card-heading blue">CVC/ CCV Code</h4>
+      <div id="cvc-code">
+        <input id="cvc" type="text" placeholder="***"></input>
+      </div>
+      <h4 class="page-subtitle blue">SAVED CARD</h4>
+      <div class="saved-card">
+        <div>
+          <img class="card-pic" src="images/credit_card.png" />
+        </div>
+        <div class="saved-card-list blue">0987 2342 1345 8234</div>
+        <button class="close-button">
+          <img class="close" src="images/close.png" />
+        </button>
+      </div>
+      <div class="saved-card">
+        <div>
+          <img class="card-pic" src="images/credit_card.png" />
+        </div>
+        <div class="saved-card-list blue">0647 2943 8274 9183</div>
+        <button class="close-button">
+          <img class="close" src="images/close.png" />
+        </button>
+      </div>
+      <div class="action-button">
+        <button class="action">ADD CARD</button>
+      </div>
+    </div>
+    <nav id="nav-bar">
+      <a href="home.html">
+        <img class="nav-icon" src="images/house-xxl.png" />
+      </a>
+      <a href="history.html">
+        <img class="nav-icon" src="images/History.png" />
+      </a>
+      <a href="vehicle.html">
+        <img class="nav-icon" src="images/car.png" />
+      </a>
+      <a href="card.html">
+        <img class="nav-icon" src="images/credit_card.png" />
+      </a>
+    </nav>
+  </body>
+  </html>

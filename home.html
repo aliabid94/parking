@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>
+      Parking App
+    </title>
+    <link rel="stylesheet" type="text/css" href="style/home.css" />
+    <link rel="stylesheet" type="text/css" href="style/common.css" />
+  </head>
+  <body>
+    <div id="header">
+      <img id="logo" src="images/logo.png" />
+    </div>
+    <img id="map" src="images/map.png" />
+    <div class="content">
+      <div id="form">
+        <div id="time-selector" class="blue">
+          <button class="time-modifier">
+            -
+          </button>
+          <div id="current-duration">1 <span id="hr">HR</span> </div>
+          <button class="time-modifier" >
+            +
+          </button>
+        </div>
+        <div id="time-range" >
+          <div id="start-time" class="time-boundary">
+            <div class="time-title">Start</div>
+            <span class="clock-time blue">1:20<span class="ampm">PM</span> </span>
+          </div>
+          <div id="end-time" class="time-boundary">
+            <div class="time-title">Ends Today</div>
+            <span class="clock-time blue">2:20<span class="ampm">PM</span> </span>
+          </div>
+        </div>
+        <div id="total-cost" class="form-row">
+          <img class="row-icon" src="images/dollar_sign.png" />
+          <span class="selected">1.00</span>
+        </div>
+        <a id="lot-selector" class="form-row" href="lot.html">
+          <img class="row-icon" src="images/map pin.png" />
+          <span class="unselected">Select Parking Lot</span>
+        </a>
+        <div id="vehicle-selector" class="form-row">
+          <img class="row-icon" src="images/car icon.png" />
+          <span class="unselected">Select Vehicle</span>
+        </div>
+        <div id="card-selector" class="form-row">
+          <img class="row-icon" src="images/credit_card.png" />
+          <span class="unselected">Select Card</span>
+        </div>
+      </div>
+      <a href="confirm.html" class="action-button">
+        <button class="action">PROCEED</button>
+      </a>
+    </div>
+    <nav id="nav-bar">
+      <a href="home.html">
+        <img class="nav-icon" src="images/house-xxl.png" />
+      </a>
+      <a href="history.html">
+        <img class="nav-icon" src="images/History.png" />
+      </a>
+      <a href="vehicle.html">
+        <img class="nav-icon" src="images/car.png" />
+      </a>
+      <a href="card.html">
+        <img class="nav-icon" src="images/credit_card.png" />
+      </a>
+    </nav>
+  </body>
+</html>

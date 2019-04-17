@@ -1,0 +1,57 @@
+
+#card-name {
+  margin: 0;
+}
+
+.card-info {
+  display: flex;
+}
+
+.info-input {
+  flex-grow: 1;
+}
+
+.card-heading {
+  margin: 5px 0;
+}
+
+#exp-date {
+  display: flex;
+}
+
+.month-year, #cvc {
+  width: 80px;
+}
+
+#year {
+  margin-left: 20px;
+}
+
+#cvc-code {
+  display: flex;
+}
+
+#cvc {
+
+}
+
+.saved-card {
+  display: flex;
+  background: #eaeaea;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+  }
+}
+
+.saved-card-list {
+  flex-grow: 1;
+  margin-left: 15px;
+  align-content: center;
+}
+
+.card-pic {
+  height: 20px;
+  margin-left: 5px;
+}

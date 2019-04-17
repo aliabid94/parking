@@ -1,0 +1,18 @@
+table {
+  border-spacing: 10px;
+}
+
+tr {
+  font-size: 15px;
+  text-align: left;
+
+}
+
+td {
+  vertical-align: middle;
+}
+
+th {
+  font-size: 18px;
+  color: #545353;
+}

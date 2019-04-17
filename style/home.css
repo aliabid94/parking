@@ -1,0 +1,76 @@
+#map {
+  width: 100%;
+}
+
+.time-modifier {
+  height: 30px;
+  width: 30px;
+  font-size: 25px;
+  color: #285caf;
+}
+
+#time-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  margin-top: 15px;
+}
+
+#current-duration {
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+#hr {
+  font-size: 15px;
+}
+
+#time-range {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.clock-time {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.time-title {
+  font-size: 10px;
+}
+
+.ampm {
+  font-size: 15px;
+}
+
+.row-icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+}
+
+#time-range, .form-row {
+  border-top: solid 1px #e0e0e0;
+}
+
+.time-boundary {
+  flex-grow: 1;
+}
+
+#start-time {
+  border-right: solid 1px #e0e0e0;
+}
+
+.time-boundary, .form-row {
+  padding: 10px 0px;
+}

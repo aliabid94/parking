@@ -1,0 +1,22 @@
+.vehicle-pic {
+  height: 20px;
+}
+
+.vehicle-list {
+  display: flex;
+  margin-top: 10px;
+}
+
+.vehicle-type {
+  margin-left: 20px;
+}
+
+
+.saved-vehicles {
+  display: flex;
+  background: #eaeaea;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+}
